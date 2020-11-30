@@ -1,0 +1,10 @@
+AllCops:
+  DisplayCopNames: true
+  DisplayStyleGuide: true
+  ExtraDetails: true
+  TargetRubyVersion: 2.6.5
+  Exclude:
+    - Gemfile
+
+Rails:
+  Enabled: true
