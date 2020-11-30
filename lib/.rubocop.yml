@@ -1,0 +1,6 @@
+inherit_from: ../.rubocop.yml
+
+# rails cops dont make sense in lib, where we put code you could realistically
+# extract and use in other projects
+Rails:
+  Enabled: false
